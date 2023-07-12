@@ -2,7 +2,7 @@ from threading import Thread
 from pyrogram import Client, filters
 import telebot
 
-userbot = Client("userbot", id, "hash")  # данные бота
+userbot = Client("userbot", api_id, "api_hash")  # данные бота
 
 my_bot = telebot.TeleBot("token")  # token бота
 
